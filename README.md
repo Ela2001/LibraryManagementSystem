@@ -1,7 +1,6 @@
 # Kütüphane Yönetim Sistemi
 
 Bu proje, Python programlama dili ve SQLite veritabanı kullanılarak geliştirilmiş terminal tabanlı bir kütüphane yönetim sistemi uygulamasıdır.
-
 Proje kapsamında kitap, üye ve ödünç alma işlemleri veritabanı üzerinde yönetilmektedir. Kullanıcı, terminal üzerinden menüler aracılığıyla kitap ve üye kayıtları oluşturabilir, mevcut kayıtları listeleyebilir, güncelleyebilir, silebilir ve kitap ödünç/iade işlemlerini gerçekleştirebilir.
 
 ## Projenin Amacı
