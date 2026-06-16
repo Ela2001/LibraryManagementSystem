@@ -1,0 +1,103 @@
+KÜTÜPHANE YÖNETİM SİSTEMİ - TEST SENARYOLARI
+
+1. Program Başlatma Testi
+Adımlar:
+- Terminalde python main.py komutu çalıştırılır.
+Beklenen Sonuç:
+- Ana menü ekrana gelir.
+
+2. Kitap Ekleme Testi
+Adımlar:
+- Kitap İşlemleri menüsüne girilir.
+- Kitap Ekle seçilir.
+- Kitap adı, yazar, yayın yılı ve stok bilgisi girilir.
+Beklenen Sonuç:
+- "Kitap başarıyla eklendi." mesajı görüntülenir.
+
+3. Kitap Listeleme Testi
+Adımlar:
+- Kitap İşlemleri menüsüne girilir.
+- Kitap Listele seçilir.
+Beklenen Sonuç:
+- Eklenen kitaplar ID, ad, yazar, yıl ve stok bilgisiyle listelenir.
+
+4. Kitap Güncelleme Testi
+Adımlar:
+- Kitap İşlemleri menüsüne girilir.
+- Kitap Güncelle seçilir.
+- Güncellenecek kitap ID değeri girilir.
+- Yeni kitap bilgileri girilir.
+Beklenen Sonuç:
+- "Kitap başarıyla güncellendi." mesajı görüntülenir.
+
+5. Kitap Silme Testi
+Adımlar:
+- Kitap İşlemleri menüsüne girilir.
+- Kitap Sil seçilir.
+- Silinecek kitap ID değeri girilir.
+Beklenen Sonuç:
+- "Kitap başarıyla silindi." mesajı görüntülenir.
+
+6. Üye Ekleme Testi
+Adımlar:
+- Üye İşlemleri menüsüne girilir.
+- Üye Ekle seçilir.
+- Üye adı ve telefon bilgisi girilir.
+Beklenen Sonuç:
+- "Üye başarıyla eklendi." mesajı görüntülenir.
+
+7. Üye Listeleme Testi
+Adımlar:
+- Üye İşlemleri menüsüne girilir.
+- Üye Listele seçilir.
+Beklenen Sonuç:
+- Eklenen üyeler ID, ad ve telefon bilgisiyle listelenir.
+
+8. Üye Güncelleme Testi
+Adımlar:
+- Üye İşlemleri menüsüne girilir.
+- Üye Güncelle seçilir.
+- Güncellenecek üye ID değeri girilir.
+- Yeni üye bilgileri girilir.
+Beklenen Sonuç:
+- "Üye başarıyla güncellendi." mesajı görüntülenir.
+
+9. Üye Silme Testi
+Adımlar:
+- Üye İşlemleri menüsüne girilir.
+- Üye Sil seçilir.
+- Silinecek üye ID değeri girilir.
+Beklenen Sonuç:
+- "Üye başarıyla silindi." mesajı görüntülenir.
+
+10. Kitap Ödünç Verme Testi
+Adımlar:
+- Ödünç İşlemleri menüsüne girilir.
+- Kitap Ödünç Ver seçilir.
+- Kitap ID ve üye ID bilgileri girilir.
+Beklenen Sonuç:
+- "Kitap başarıyla ödünç verildi." mesajı görüntülenir.
+- Kitabın stok değeri 1 azalır.
+
+11. Ödünç Listeleme Testi
+Adımlar:
+- Ödünç İşlemleri menüsüne girilir.
+- Ödünç Listesi seçilir.
+Beklenen Sonuç:
+- Ödünç verilen kitap, üye adı, alış tarihi ve iade durumu listelenir.
+
+12. Kitap İade Alma Testi
+Adımlar:
+- Ödünç İşlemleri menüsüne girilir.
+- Kitap İade Al seçilir.
+- İade alınacak ödünç ID değeri girilir.
+Beklenen Sonuç:
+- "Kitap başarıyla iade alındı." mesajı görüntülenir.
+- Kitabın stok değeri 1 artar.
+- Ödünç listesinde iade tarihi görüntülenir.
+
+13. Çıkış Testi
+Adımlar:
+- Ana menüden Çıkış seçilir.
+Beklenen Sonuç:
+- "Programdan çıkılıyor..." mesajı görüntülenir ve program kapanır.
