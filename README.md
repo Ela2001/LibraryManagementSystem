@@ -117,18 +117,15 @@ LibraryManagementSystem/
 
   ## Kurulum ve Çalıştırma
 
-Projeyi çalıştırmak için bilgisayarda Python 3 kurulu olmalıdır.
+1.Projeyi çalıştırmak için bilgisayarda Python 3 kurulu olmalıdır.
 
-GitHub üzerinden projeyi indirmek için:
-
+2.GitHub üzerinden projeyi indirmek için:
 git clone https://github.com/Ela2001/LibraryManagementSystem.git
 
-Proje klasörüne girmek için:
-
+3.Proje klasörüne girmek için:
 cd LibraryManagementSystem
 
-Programı çalıştırmak için:
-
+4.Programı çalıştırmak için:
 python main.py
 
 ## Kullanım
